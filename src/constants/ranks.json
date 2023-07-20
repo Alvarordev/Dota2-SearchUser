@@ -1,0 +1,36 @@
+{
+    "1": {
+      "medal": "Herald",
+      "color": "bg-green-500"
+    },
+    "2": {
+      "medal": "Guardian",
+      "color": "bg-yellow-800"
+    },
+    "3": {
+      "medal": "Crusader",
+      "color": "bg-slate-500"
+    },
+    "4": {
+      "medal": "Arcont",
+      "color": "bg-green-500"
+    },
+    "5": {
+      "medal": "Legend",
+      "color": "bg-red-300"
+    },
+    "6": {
+      "medal": "Ancient",
+      "color": "bg-purple-500"
+    },
+    "7": {
+      "medal": "Divine",
+      "color": "bg-blue-800"
+    },
+    "8": {
+      "medal": "Inmortal",
+      "color": "red-800"
+    }
+
+    
+}      
