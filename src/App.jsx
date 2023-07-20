@@ -48,7 +48,7 @@ function App() {
         <h1 className="text-[32px] font-bold my-6">Dota 2 - Search User</h1>
         <input
           className="bg-black border border-gray-500 rounded-sm min-w-[480px] mb-5 p-1"
-          placeholder="ingresa tu id de Steam"
+          placeholder="Ingresa tu ID de Steam o el URL"
           onChange={handleChange}
           type="text"
         />
