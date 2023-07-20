@@ -57,7 +57,7 @@ export const UserCard = ({user, heroes, peer}) => {
 
         <main className="px-6 pb-6 flex gap-2 justify-between">
           <div>
-            <span className="text-gray-500 font-semibold">favorite heroes</span>
+            <span className="text-gray-500 font-semibold">heroes favoritos</span>
             <div className="flex [&>img]:w-[3.8rem]">
               <img
                 src={`https://cdn.cloudflare.steamstatic.com/${!user ? '/apps/dota2/images/dota_react/heroes/puck.png?' : firstHero?.img}`}
@@ -74,7 +74,7 @@ export const UserCard = ({user, heroes, peer}) => {
             </div>
           </div>
           <div>
-            <span className="text-gray-500 font-semibold">best mate</span>
+            <span className="text-gray-500 font-semibold">tu machete</span>
             <div className="flex items-center gap-2 ">          
               <img src={peer?.avatarfull} className="w-[2rem]"/>
               <span>{!user || !peer ? 'Unknown' : peer?.personaname}</span>  
